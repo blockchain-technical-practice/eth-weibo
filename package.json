@@ -1,0 +1,13 @@
+{
+  "name": "eth-weibo",
+  "version": "1.0.0",
+  "description": "Example weibo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shouhe wu <1414786333@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "truffle-default-builder": "^2.0.0"
+  }
+}
