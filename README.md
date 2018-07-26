@@ -1,15 +1,25 @@
-这是一个运行在以太坊上的去中心微博系统，去中心化意味着没有一个中心化机构能够控制你发送的微博，你发送的微博是由你完全控制的，任何人无法删除、关闭你的微博。一旦你的微博发出去后，只有你自己能删除它。这个微博系统有以下几个功能：
+# 项目简介
 
-- 微博内容长度限制在`160`个字符以下。
-- 微博账户可以接受打赏，捐赠，货币是以太币。
+本项目是区块链开发实战丛书 区块链开发实战：以太坊关键技术与案例分析》 相关章节部分的相关代码
 
-整个系统的流程图如图11-3所示：
+## 本书介绍
 
-![weibo arch](./assets/chapter_21/weibo_arch.png)
+《区块链开发实战：以太坊关键技术与案例分析》
 
-图11-3 微博系统的流程图
+<a href="https://search.jd.com/Search?keyword=区块链开发实战&enc=utf-8&wq=区块链开发实战&pvid=62e6789cc6ca42ed967de131df18fae8"><img width="400" height="600" src="https://github.com/blockchain-technical-practice/fabric_sdk_node_study/raw/master/pic/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF%E5%AE%9E%E6%88%98-%E4%BB%A5%E5%A4%AA%E5%9D%8A.jpeg"/></a>
+
+如果您觉得本丛书的代码对您有帮助请购买本正版图书，谢谢。
+
+[购买链接](https://search.jd.com/Search?keyword=区块链开发实战&enc=utf-8&wq=区块链开发实战&pvid=62e6789cc6ca42ed967de131df18fae8)
 
 
-从上面的流程图中可以看出，创建一个去中心化的合约一共需要两个合约，WeiboAccount是一个比较重要的合约，每当我们需要创建一个微博时就需要部署一个WeiboAccount合约，合约部署完成后会返回一个合约地址，那就是我们的微博账号，我们想发送微博时就调用WeiboAccount里的方法，这样我们发送的所有微博就会存在WeibAccount合约中，根据我们之前的对智能合约的了解，其他人是不可以删除，修改WeiboAccount合约的。
+## 问题反馈，
 
-WeiboRegister合约相当于一个平台，WeiboRegister为我们提供了一个展示微博账号的平台，我们自己创建了一个微博合约后需要到一个平台上注册一下，这样其他人就可以通过平台找到我们了，可以和我们进行互动。但是即便平台被删除、屏蔽后我们自己的微博合约还是存在的，接下来我们将一步一步地现实去中心化微博应用。
+为了帮助读者更好的阅读本书，我们跟中国最大的区块链技术社区区块链兄弟合作，在区块链兄弟上面开设了专栏。如果您在阅读本丛书的过程遇到的问题，可以通过以下连接提交问题
+
+<a href="http://www.blockchainbrother.com/questions/blockchain-technical-practice">点击，提交阅读本书的过程中遇到的问题</a>
+
+
+## 丛书介绍
+
+<a href="https://github.com/blockchain-technical-practice/blockchain-technical-practice-doc/wiki/Home/_edit">区块链开发实战系列丛书简介</a>
