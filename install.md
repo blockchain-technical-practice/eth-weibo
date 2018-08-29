@@ -63,6 +63,12 @@
    $ cd eth-weibo
    ```
 
+   安装依赖
+   
+   ```
+   $ npm install
+   ```
+   
    部署合约
 
    ```
